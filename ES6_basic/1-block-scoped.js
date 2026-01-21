@@ -1,5 +1,3 @@
-const today = 'today';
-
 export default function taskBlock(trueOrFalse) {
   const task = false;
   const task2 = true;
@@ -9,8 +7,5 @@ export default function taskBlock(trueOrFalse) {
     const task2 = false;
     return [task, task2];
   }
-
-  console.log(today);
-
   return [task, task2];
 }
